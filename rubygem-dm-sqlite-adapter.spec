@@ -46,3 +46,14 @@ Documents, RDoc & RI documentation for %{name}.
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
 %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.2.0-2
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Tue Jan 24 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.2.0-1
++ Revision: 767902
+- imported package rubygem-dm-sqlite-adapter
+
